@@ -18,19 +18,13 @@ The game uses the following librairies :
 
 #### Ubuntu
 Open a terminal and type the following commands :
-```
-$ sudo apt-get install libsdl2-dev
-$ sudo apt-get install libsdl2-image-dev
-$ sudo apt-get install libsdl2-mixer-dev
-$ sudo atp-get install libsdl2-ttd-dev
+```bash
+sudo apt-get install libsdl2-dev libsdl2-image-dev libsdl2-mixer-dev libsdl2-ttf-dev 
 ```
 
 #### Arch Linux
 ```
-$ sudo pacman -s sdl2
-$ sudo pacman -s sdl2-mixer
-$ sudo pacman -s sdl2-ttf
-$ sudo pacman -s sdl2-image
+$ sudo pacman -s sdl2 sdl2-mixer sdl2-ttf sdl2-image
 ```
 
 ### On Windows And MacOS
